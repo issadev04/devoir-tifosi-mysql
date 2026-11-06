@@ -26,3 +26,6 @@ Desktop.ini
 
 *.dump
 *.backup
+
+# Fichiers Excel sources du projet
+data/*.xlsx
