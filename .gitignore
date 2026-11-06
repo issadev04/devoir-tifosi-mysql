@@ -1,0 +1,28 @@
+# Fichiers système
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Fichiers temporaires
+
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Fichiers sensibles
+
+.env
+.env.*
+!.env.example
+
+# Configuration des éditeurs
+
+.vscode/
+.idea/
+
+# Sauvegardes de bases de données
+
+*.dump
+*.backup
