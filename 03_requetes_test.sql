@@ -84,7 +84,8 @@ SELECT focaccia.nom AS focaccia,
 FROM focaccia
 INNER JOIN comprend
     ON focaccia.id_focaccia = comprend.id_focaccia
-GROUP BY focaccia.id_focaccia, focaccia.nom;
+GROUP BY focaccia.id_focaccia, focaccia.nom
+ORDER BY focaccia.nom ASC;
 
 -- Résultat attendu : 8 focaccias avec leur nombre d'ingrédients.
 -- Résultat obtenu :
@@ -127,7 +128,7 @@ WHERE ingredient.nom = 'Ail';
 
 -- Résultat attendu : 4 focaccias.
 -- Résultat obtenu : 4 focaccias contenant de l'ail :
--- 	Mozaccia, Gorgonzollaccia, Raclaccia et Paysanne.
+-- Mozaccia, Gorgonzollaccia, Raclaccia et Paysanne.
 
 
 -- =====================================================

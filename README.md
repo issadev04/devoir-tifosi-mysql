@@ -14,7 +14,7 @@ Les objectifs de ce projet sont les suivants :
 
 - Concevoir le schéma relationnel à partir du modèle conceptuel fourni.
 - Créer et configurer la base de données MySQL.
-- Créer un utilisateur dédié à l'administration de la base de données.
+- Créer un utilisateur dédié à l'accès et à la gestion de la base de données.
 - Mettre en place les contraintes d'intégrité : champs obligatoires, clés primaires, clés étrangères, valeurs uniques et contrôles de cohérence.
 - Alimenter la base avec les données fournies.
 - Réaliser les 10 requêtes SQL demandées dans le cahier des charges.
@@ -106,7 +106,7 @@ MySQL Server 8.4.13 est utilisé pour le développement et les tests du projet.
 
 ### Configuration de l'utilisateur MySQL
 
-Un utilisateur nommé `tifosi` est configuré pour administrer la base de données `tifosi`.
+Un utilisateur nommé tifosi est configuré pour accéder à la base de données tifosi et y effectuer les opérations nécessaires au projet.
 
 Ses privilèges ont été vérifiés dans MySQL Workbench. Il dispose de tous les privilèges nécessaires sur cette base.
 
