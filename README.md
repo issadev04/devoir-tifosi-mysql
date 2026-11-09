@@ -36,11 +36,17 @@ Les technologies et outils utilisés pour réaliser ce projet sont :
 
 Le dépôt GitHub contient les fichiers suivants :
 
-- `01_creation_schema.sql` : création de la base et des tables.
-- `02_peuplement_donnees.sql` : insertion des données.
-- `03_requetes_test.sql` : requêtes de vérification.
-- `.gitignore` : définition des fichiers à exclure du suivi Git.
-- `README.md` : documentation du projet.
+    devoir-tifosi-mysql/
+    ├── data/
+    │   ├── boisson.xlsx
+    │   ├── focaccia.xlsx
+    │   ├── ingredient.xlsx
+    │   └── marque.xlsx
+    ├── 01_creation_schema.sql
+    ├── 02_peuplement_donnees.sql
+    ├── 03_requetes_test.sql
+    ├── .gitignore
+    └── README.md
 
 ## 5. Scripts SQL
 
